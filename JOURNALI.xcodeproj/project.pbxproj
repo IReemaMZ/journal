@@ -16,31 +16,6 @@
 			path = JOURNALI;
 			sourceTree = "<group>";
 		};
-		A7C46B9130ADCB0D0081A8D2 /* Models */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A7C46B9330ADCB300081A8D2 /* Resources */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		A7C46B9530ADCB430081A8D2 /* ViewModels */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		A7C46B9730ADCB570081A8D2 /* Views */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A7C46B9930ADCB6F0081A8D2 /* Assets */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +30,6 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				A7C46B9930ADCB6F0081A8D2 /* Assets */,
-				A7C46B9730ADCB570081A8D2 /* Views */,
-				A7C46B9530ADCB430081A8D2 /* ViewModels */,
-				A7C46B9330ADCB300081A8D2 /* Resources */,
-				A7C46B9130ADCB0D0081A8D2 /* Models */,
 				000000000000000000000010 /* JOURNALI */,
 				000000000000000000000020 /* Products */,
 			);
@@ -88,11 +58,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				000000000000000000000010 /* JOURNALI */,
-				A7C46B9130ADCB0D0081A8D2 /* Models */,
-				A7C46B9330ADCB300081A8D2 /* Resources */,
-				A7C46B9530ADCB430081A8D2 /* ViewModels */,
-				A7C46B9730ADCB570081A8D2 /* Views */,
-				A7C46B9930ADCB6F0081A8D2 /* Assets */,
 			);
 			name = JOURNALI;
 			productName = MyApp;
@@ -107,7 +72,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2700;
+				LastUpgradeCheck = 2710;
 				TargetAttributes = {
 					000000000000000100000000 = {
 						CreatedOnToolsVersion = 26.3;
@@ -186,6 +151,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D4DMV9SRV3;
 				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -256,6 +222,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D4DMV9SRV3;
 				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -285,9 +252,10 @@
 		000000000000000111000000 /* Debug configuration for PBXNativeTarget "JOURNALI" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Journal App Icon";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D4DMV9SRV3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -323,9 +291,10 @@
 		000000000000000112000000 /* Release configuration for PBXNativeTarget "JOURNALI" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Journal App Icon";
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D4DMV9SRV3;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
